@@ -1,0 +1,19 @@
+What the code does
+	The user is asked if they’ve run the code before
+		If no, the user is asked for their first name and year of birth. This is used to create an “account” for them, where all their “collections” are stored.
+		If yes, the user can access the “collections” associated with their “account”
+	If the user just got an “account,” they’re given a tutorial
+	If not, or after the tutorial, the screen clears and the user is given a few options
+	The options are:
+		Create new collection
+		Add to collection
+		Display full collection
+		Search collection
+	And that’s it
+
+How the database stuff is organized
+	Accounts database
+	The first two rows hold first names and years of birth
+	The following rows contain the collections the user has created, up to five
+	The information is stored but using 2D arrays for the data and one array for the column labels
+
